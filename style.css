@@ -1,0 +1,92 @@
+@import url("https//:fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://i.pinimg.com/736x/4f/75/31/4f7531b77a4751bdc86916be918178a2.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .input-box {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    margin-bottom: 20px; /* Añade espacio entre cada campo */
+    position: relative;
+  }
+
+  .input-box input {
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    border: 1px;
+    border-radius: 40px;
+  }
+
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #000;
+  }
+
+  .btn {
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #007bff; /* Color principal del botón */
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #848585ab; /* Color al pasar el ratón */
+  }
+
+  input, .btn {
+    margin-bottom: 10px; /* Separación entre campos y botón */
+  }
+
+  div.input-box, .btn {
+    max-width: 300px; /* Para limitar el ancho de los campos y el botón */
+  }
+
+  h1 {
+    font-size: 36px; /* Tamaño del texto */
+    color: #ffffff; /* Color blanco para que destaque */
+    margin-bottom: 30px; /* Espaciado inferior para separar del contenido */
+    text-align: center; /* Alineación al centro */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para resaltar */
+  }
+
+  .login-link p, .copyright {
+    color: #ffffff; /* Cambia el color a blanco */
+    text-align: center; /* Centra el texto */
+    font-size: 16px; /* Tamaño adecuado */
+    margin-top: 15px;
+  }
+
+  .login-link a {
+    color: #ffffff; /* Blanco para el enlace */
+    text-decoration: none; /* Elimina el subrayado */
+  }
+
+  .login-link a:hover {
+    color: #007bff; /* Cambia el color del enlace al pasar el ratón */
+  }
